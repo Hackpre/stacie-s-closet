@@ -1,0 +1,128 @@
+/* ============================================================
+   STACIE'S CLOSET — responsive.css
+   Mobile-first breakpoints
+   ============================================================ */
+
+/* ── TABLET (≤ 1024px) ──────────────────────────────────── */
+@media (max-width: 1024px) {
+  .nav { padding: 18px 36px; }
+  .nav.scrolled { padding: 12px 36px; }
+  .nav-links { gap: 22px; }
+
+  .hero { grid-template-columns: 1fr; }
+  .hero-right { height: 380px; }
+  .hero-left { padding: 130px 36px 60px; }
+
+  .section { padding: 70px 36px; }
+  .page-hero { padding: 120px 36px 60px; }
+
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px; }
+
+  .featured-banner { grid-template-columns: 1fr 1fr; }
+  .featured-content { padding: 40px; }
+
+  .payment-layout { grid-template-columns: 1fr; padding: 100px 36px 60px; }
+  .payment-order-col { position: static; }
+
+  .cart-page-layout { grid-template-columns: 1fr; padding: 100px 36px 60px; }
+  .cart-summary-box { position: static; }
+
+  .editorial-grid { gap: 36px; }
+
+  .collections-grid { grid-template-columns: 1fr 1fr; }
+  .collection-card:first-child { grid-row: auto; aspect-ratio: 3/4; }
+
+  .qv-modal { grid-template-columns: 1fr; max-width: 480px; }
+  .qv-img { aspect-ratio: 4/3; }
+}
+
+/* ── MOBILE (≤ 768px) ──────────────────────────────────── */
+@media (max-width: 768px) {
+  /* Cursor off on mobile */
+  body { cursor: auto; }
+  .cursor, .cursor-ring { display: none; }
+  a, button { cursor: pointer; }
+
+  .nav { padding: 16px 20px; }
+  .nav.scrolled { padding: 12px 20px; }
+  .nav-links { display: none; }
+  .nav-hamburger { display: flex; }
+
+  .mobile-menu { display: flex; }
+
+  .hero-left { padding: 110px 20px 50px; }
+  .hero-cta { flex-direction: column; }
+  .hero-cta .btn { width: 100%; text-align: center; }
+  .hero-stats { gap: 24px; }
+  .hero-stat-num { font-size: 22px; }
+
+  .section { padding: 56px 20px; }
+  .section-header { flex-direction: column; align-items: flex-start; gap: 16px; }
+
+  .page-hero { padding: 100px 20px 48px; }
+
+  .filter-bar { gap: 6px; }
+  .filter-btn { padding: 7px 14px; font-size: 9px; }
+
+  .product-grid { grid-template-columns: repeat(2, 1fr); gap: 2px; }
+  .product-quick { display: none; }
+
+  .featured-banner { grid-template-columns: 1fr; }
+  .featured-img { height: 300px; }
+  .featured-content { padding: 32px 20px; }
+
+  .editorial-grid { grid-template-columns: 1fr; gap: 32px; }
+  .editorial-grid.reverse { direction: ltr; }
+
+  .collections-grid { grid-template-columns: 1fr; }
+  .collection-card:first-child { grid-row: auto; }
+
+  .cart-drawer { width: 100%; max-width: 100vw; }
+
+  .payment-layout { padding: 100px 20px 56px; }
+  .payment-methods { grid-template-columns: 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+
+  .cart-page-layout { padding: 100px 20px 56px; }
+  .cart-page-header { display: none; }
+  .cart-page-row {
+    grid-template-columns: 1fr;
+    position: relative; padding: 16px 0;
+  }
+  .cart-page-price { font-size: 13px; }
+  .cart-page-remove {
+    position: absolute; top: 16px; right: 0;
+  }
+
+  .footer { padding: 48px 20px 32px; }
+  .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; }
+
+  .qv-modal { grid-template-columns: 1fr; }
+  .qv-img { aspect-ratio: 3/2; }
+  .qv-info { padding: 24px 20px; }
+
+  .wa-float { bottom: 20px; right: 16px; }
+
+  .new-arrivals-intro { padding: 90px 20px 32px; }
+
+  .hero-img-grid { grid-template-columns: 1fr 1fr; }
+}
+
+/* ── SMALL MOBILE (≤ 480px) ────────────────────────────── */
+@media (max-width: 480px) {
+  .hero-title { font-size: 36px; }
+  .section-title { font-size: 28px; }
+  .hero-stats { flex-direction: column; gap: 16px; }
+  .product-grid { grid-template-columns: 1fr 1fr; }
+  .nav-logo { font-size: 18px; }
+  .payment-methods { grid-template-columns: 1fr; }
+  .cart-actions .btn { font-size: 10px; padding: 13px 20px; }
+  .toast { right: 12px; left: 12px; min-width: auto; }
+}
+
+/* ── PRINT ──────────────────────────────────────────────── */
+@media print {
+  .nav, .wa-float, .cart-drawer, .toast { display: none; }
+  body { background: #fff; color: #000; }
+}
