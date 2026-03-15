@@ -16,7 +16,7 @@ const PRODUCTS = [
     category: "Women",
     badge: "sale",
     sizes: ["XS","S","M","L","XL"],
-    img: "https://images.unsplash.com/photo-1594938298603-c8148c4b4a83?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1590735213920-68192a487bc2?w=600&q=80",
     desc: "A stunning wrap dress crafted from premium Ankara fabric. Vibrant patterns and a flattering silhouette make this a must-have piece for any wardrobe."
   },
   {
@@ -27,7 +27,7 @@ const PRODUCTS = [
     category: "Men",
     badge: "new",
     sizes: ["S","M","L","XL","XXL"],
-    img: "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
     desc: "A perfectly tailored two-piece linen suit. Breathable, lightweight, and exuding effortless elegance. Available in two refined colorways."
   },
   {
@@ -38,7 +38,7 @@ const PRODUCTS = [
     category: "Women",
     badge: "new",
     sizes: ["S","M","L","XL"],
-    img: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80",
     desc: "Free-spirited boho maxi skirt with flowing fabric and earthy tones. Perfect for both casual days and evening occasions."
   },
   {
@@ -50,7 +50,7 @@ const PRODUCTS = [
     category: "Men",
     badge: "sale",
     sizes: ["S","M","L","XL","XXL"],
-    img: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1618886614638-80e3c103d465?w=600&q=80",
     desc: "A timeless oxford shirt in premium cotton. Crisp, versatile, and ready for every occasion from office to weekend."
   },
   {
@@ -61,7 +61,7 @@ const PRODUCTS = [
     category: "Women",
     badge: "new",
     sizes: ["XS","S","M","L"],
-    img: "https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?w=600&q=80",
     desc: "Bold Kente-inspired patterns on a chic off-shoulder cut. A statement piece that celebrates African heritage with modern flair."
   },
   {
@@ -71,7 +71,7 @@ const PRODUCTS = [
     price: 32000,
     category: "Men",
     sizes: ["S","M","L","XL"],
-    img: "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80",
     desc: "Contemporary slim-cut chinos in a premium stretch blend. Comfortable, sharp and adaptable for any occasion."
   },
   {
@@ -82,7 +82,7 @@ const PRODUCTS = [
     category: "Women",
     badge: "new",
     sizes: ["XS","S","M","L","XL"],
-    img: "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=600&q=80",
     desc: "Luxurious silk blouse with a relaxed, elegant drape. Pairs beautifully with trousers or a midi skirt."
   },
   {
@@ -94,7 +94,7 @@ const PRODUCTS = [
     category: "Men",
     badge: "sale",
     sizes: ["S","M","L","XL","XXL"],
-    img: "https://images.unsplash.com/photo-1551537482-f2075a1d41f2?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&q=80",
     desc: "A bold bomber jacket featuring vibrant African print panels. High-quality construction meets distinctive street-ready style."
   }
 ];
